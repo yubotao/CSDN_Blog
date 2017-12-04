@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    ">
+
+    <bean id="business" class="util.quartzUtil"/>
+
+    <!--初始化调度任务-->
+    <bean name="simpleTrigger" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <!--调度的类-->
+        <property name="targetObject" ref="business"/>
+        <!--调度的方法-->
+        <property name="targetMethod" value="test"/>
+    </bean>
+
+    <!--触发器-->
+    <bean id="cronTriggerTest" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <!--指向的任务-->
+        <property name="jobDetail" ref="simpleTrigger"/>
+        <!--时间定时-->
+        <!--参数依次为秒，分，时，日，月；还有其他参数，具体查阅资料；注意参数哪里，*是一个很关键的因素，不使用的地方要用*，设置0相当于有参数-->
+        <property name="cronExpression" value="0/5 * * * * ?"/>
+    </bean>
+
+    <!--总调度器-->
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <!--触发器列表-->
+                <ref bean="cronTriggerTest"/>
+            </list>
+        </property>
+    </bean>
+
+
+</beans>
