@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-4.3.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+
+
+    <!--（1）配置数据库-->
+    <!--加载数据库连接配置-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!--<bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">-->
+    <!--<property name="location" value="jdbc.properties"/>-->
+    <!--</bean>-->
+
+    <!--dbcp最重要的api-->
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <!--同一时间可以从池分配的最多连接数量。设置为0时表示无限制。-->
+        <property name="maxActive" value="30"/>
+        <!--池启动时创建的连接数量-->
+        <property name="initialSize" value="5"/>
+        <!--池里不会被释放的最多空闲连接数量。设置为0时表示无限制。-->
+        <property name="maxIdle" value="20"/>
+        <!--在不新建连接的条件下，池中保持空闲的最少连接数。-->
+        <property name="minIdle" value="1"/>
+        <!-- 设置在自动回收超时连接的时候打印连接的超时错误  -->
+        <property name="logAbandoned" value="true"/>
+        <!-- 设置自动回收超时连接 -->
+        <property name="removeAbandoned" value="true"/>
+        <!-- 自动回收超时时间(以秒数为单位) -->
+        <property name="removeAbandonedTimeout" value="10"/>
+        <!-- 超时等待时间以毫秒为单位  -->
+        <property name="maxWait" value="100"/>
+    </bean>
+    <!--（2）配置SqlSessionFactoryBean 来自mybatis-spring-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--数据源-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--配置mybatis的全局配置文件-->
+        <!--<property name="configLocation" value="classpath:mybatis-config.xml"/>-->
+        <!--扫描model包，-->
+        <property name="typeAliasesPackage" value="model"/>
+        <!--扫描sql配置文件-->
+        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+    </bean>
+
+    <!--扫描dao接口，动态实现接口，并且注入到spring容器中
+    就是xml配置文件中namespace中的接口
+    -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--给出要扫描的包的地址-->
+        <property name="basePackage" value="dao"/>
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+
+
+</beans>

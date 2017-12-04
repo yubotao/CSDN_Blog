@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="dao.UserDao">
+
+    <insert id="insert" parameterType="model.User" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO user (name,password,role) VALUES (#{name},#{password},#{role})
+    </insert>
+
+    <delete id="delete" parameterType="java.lang.Long">
+        DELETE FROM user WHERE id = #{id}
+    </delete>
+
+    <update id="update" parameterType="model.Role">
+        UPDATE user SET name = #{name},password = #{password},role = #{role} WHERE id = #{id}
+    </update>
+
+    <select id="getUserById" parameterType="java.lang.Long" resultType="model.User">
+        SELECT * FROM user WHERE id = #{id}
+    </select>
+
+    <select id="getUserByName" parameterType="java.lang.String" resultType="model.User">
+        SELECT * FROM user WHERE name = #{name}
+    </select>
+
+</mapper>
