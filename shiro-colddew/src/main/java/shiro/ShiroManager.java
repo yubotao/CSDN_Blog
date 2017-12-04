@@ -31,7 +31,7 @@ public class ShiroManager {
     }
     
     @Bean
-    public AuthorizationAttributeSourceAdvisor getgetAuthorizationAttributeSourceAdvisor(DefaultSecurityManager securityManager){
+    public AuthorizationAttributeSourceAdvisor getAuthorizationAttributeSourceAdvisor(DefaultSecurityManager securityManager){
         AuthorizationAttributeSourceAdvisor aasa = new AuthorizationAttributeSourceAdvisor();
         aasa.setSecurityManager(securityManager);
         return aasa;

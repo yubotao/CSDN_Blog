@@ -52,7 +52,7 @@ public class ShiroConfig {
         ShiroFilterFactoryBean shiroFilter = new ShiroFilterFactoryBean();
         shiroFilter.setSecurityManager(securityManager);
         shiroFilter.setLoginUrl("/a/login/fail");//未登录跳转
-        shiroFilter.setUnauthorizedUrl("/a/login/fail");//未授权跳转
+        shiroFilter.setUnauthorizedUrl("/a/permission/fail");//未授权跳转
         LinkedHashMap<String,String> filterChainDefinitionMap = new LinkedHashMap<>();
         
         filterChainDefinitionMap.put("/a/u/first","perms[1]");

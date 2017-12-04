@@ -65,6 +65,11 @@ public class OneController {
         return "fail";
     }
     
+    @RequestMapping(value = "/a/permission/fail",method = RequestMethod.GET)
+    public String permissionFail(){
+        return "permissionFail";
+    }
+    
     @RequestMapping(value = "/a/u/first",method = RequestMethod.GET)
     public String first(){
         return "first";
