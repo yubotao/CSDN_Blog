@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+    <context:annotation-config/>
+
+    <!-- 扫描service包下所有使用注解的类型 -->
+    <context:component-scan base-package="com.yubotao.controller"/>
+
+    <!-- 2.静态资源默认servlet配置，将静态请求转由web容器处理
+               (1)加入对静态资源的处理：js,gif,png
+               (2)允许使用"/"做整体映射
+            -->
+
+    <mvc:annotation-driven/>
+
+    <mvc:default-servlet-handler/>
+
+    <!--<mvc:resources mapping="" location=""/>-->
+
+    <!-- 3.配置jsp 显示ViewResolver ，根据前后缀获取view物理文件路径-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>-->
+        <property name="prefix">
+            <value>/WEB-INF/jsp/</value>
+        </property>
+        <property name="suffix">
+            <value>.jsp</value>
+        </property>
+    </bean>
+
+</beans>
