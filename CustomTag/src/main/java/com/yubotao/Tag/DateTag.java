@@ -12,7 +12,7 @@ import java.util.Calendar;
  */
 public class DateTag extends TagSupport {
     
-    private String value;
+    private Long value;
     
     @Override
     public int doStartTag() throws JspException {
@@ -31,7 +31,7 @@ public class DateTag extends TagSupport {
         return super.doStartTag();
     }
     
-    public void setValue(String value){
+    public void setValue(Long value){
         this.value = value;
     }
     
