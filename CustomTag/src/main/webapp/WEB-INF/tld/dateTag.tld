@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>1.2</jsp-version>
+
+    <tag>
+        <name>date</name>
+        <tag-class>com.yubotao.Tag.DateTag</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <name>value</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>

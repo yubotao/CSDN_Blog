@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CustomTag:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="CustomTag.war">
+      <element id="artifact" artifact-name="CustomTag:war exploded" />
+    </root>
+  </artifact>
+</component>
