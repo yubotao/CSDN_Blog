@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yubotao.Dao.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.yubotao.POJO.User" >
+    <id column="id" property="id" jdbcType="BIGINT" />
+    <result column="username" property="username" jdbcType="VARCHAR" />
+    <result column="password" property="password" jdbcType="VARCHAR" />
+    <result column="wrongtimes" property="wrongtimes" jdbcType="INTEGER" />
+    <result column="lastlogin" property="lastlogin" jdbcType="BIGINT" />
+    <result column="locked" property="locked" jdbcType="INTEGER"/>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, username, password, wrongtimes, lastlogin, locked
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from user
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from user
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.yubotao.POJO.User" >
+    insert into user (id, username, password, 
+      wrongtimes, lastlogin, locked)
+    values (#{id,jdbcType=BIGINT}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{wrongtimes,jdbcType=INTEGER}, #{lastlogin,jdbcType=BIGINT}, #{locked,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.yubotao.POJO.User" >
+    insert into user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="username != null" >
+        username,
+      </if>
+      <if test="password != null" >
+        password,
+      </if>
+      <if test="wrongtimes != null" >
+        wrongtimes,
+      </if>
+      <if test="lastlogin != null" >
+        lastlogin,
+      </if>
+      <if test="locked != null">
+      locked,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="username != null" >
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="wrongtimes != null" >
+        #{wrongtimes,jdbcType=INTEGER},
+      </if>
+      <if test="lastlogin != null" >
+        #{lastlogin,jdbcType=BIGINT},
+      </if>
+      <if test="locked != null" >
+        #{locked,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yubotao.POJO.User" >
+    update user
+    <set >
+      <if test="username != null" >
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="wrongtimes != null" >
+        wrongtimes = #{wrongtimes,jdbcType=INTEGER},
+      </if>
+      <if test="lastlogin != null" >
+        lastlogin = #{lastlogin,jdbcType=BIGINT},
+      </if>
+       <if test="locked != null" >
+        locked = #{locked,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yubotao.POJO.User" >
+    update user
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      wrongtimes = #{wrongtimes,jdbcType=INTEGER},
+      lastlogin = #{lastlogin,jdbcType=BIGINT},
+      locked = #{locked,jdbcType=INTEGER}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  
+  <select id="selectByUsername" resultMap="BaseResultMap" parameterType="java.lang.String" >
+   select 
+    <include refid="Base_Column_List" />
+    from user
+    where username = #{username,jdbcType=VARCHAR}
+  </select>
+</mapper>
