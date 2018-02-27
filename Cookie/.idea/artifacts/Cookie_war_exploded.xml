@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Cookie:war exploded">
+    <output-path>$PROJECT_DIR$/target/Cookie</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Cookie" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.9.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:javax.servlet.jsp-api:2.3.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Cookie/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Cookie/web/Web" />
+    </root>
+  </artifact>
+</component>
