@@ -25,7 +25,7 @@ public class CookieController {
     private static final Log log = LogFactory.getLog(CookieController.class);
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public void login(HttpServletRequest request, HttpServletResponse response, User user) throws ServletException,IOException{
+    public void login(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException{
         String username = request.getParameter("user");
         String password = request.getParameter("password");
 
