@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- 配置关于数据库连接的四个项：driverClass  url username password -->
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql:///hibernatetest</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">*****</property>
+
+        <!-- 可以将向数据库发送的SQL语句显示出来 -->
+        <property name="hibernate.show_sql">true</property>
+        <!-- 格式化SQL语句 -->
+        <property name="hibernate.format_sql">true</property>
+
+        <!-- hibernate的方言 -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+        <!-- 如果数据库中有表，不创建，没有表则创建；如果映射不匹配，会自动更新表结构。 -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- 配置hibernate的映射文件所在的位置 -->
+        <mapping resource="Customer.hbm.xml" />
+        <mapping class="com.yubotao.hibernate.annotation.Book"/>
+        <mapping class="com.yubotao.hibernate.annotation.Person"/>
+        <mapping class="com.yubotao.hibernate.manyToOne.Customer"/>
+        <mapping class="com.yubotao.hibernate.manyToOne.Order"/>
+
+        <mapping class="com.yubotao.hibernate.manyToMany.Student"/>
+        <mapping class="com.yubotao.hibernate.manyToMany.Teacher"/>
+    </session-factory>
+</hibernate-configuration>

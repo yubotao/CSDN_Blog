@@ -1,0 +1,549 @@
+2018-06-21 11:41:00  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 11:41:00  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 11:41:00  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 11:41:00  [ main:493 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 11:41:01  [ main:1285 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 11:41:01  [ main:1292 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 11:41:01  [ main:1292 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 11:41:01  [ main:1293 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 11:41:01  [ main:1295 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 11:41:02  [ main:1534 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 11:41:02  [ main:2125 ] - [ INFO ]  HHH10001008: Cleaning up connection pool [jdbc:mysql:///hibernatetest]
+2018-06-21 11:41:34  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 11:41:34  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 11:41:34  [ main:4 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 11:41:34  [ main:202 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 11:41:35  [ main:1133 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 11:41:35  [ main:1138 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 11:41:35  [ main:1138 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 11:41:35  [ main:1138 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 11:41:35  [ main:1140 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 11:41:35  [ main:1346 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 11:41:36  [ main:1874 ] - [ INFO ]  HHH10001008: Cleaning up connection pool [jdbc:mysql:///hibernatetest]
+2018-06-21 11:41:42  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 11:41:42  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 11:41:42  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 11:41:42  [ main:213 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 11:41:43  [ main:1144 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 11:41:43  [ main:1149 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 11:41:43  [ main:1149 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 11:41:43  [ main:1150 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 11:41:43  [ main:1152 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 11:41:43  [ main:1358 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 11:41:43  [ main:1884 ] - [ INFO ]  HHH10001008: Cleaning up connection pool [jdbc:mysql:///hibernatetest]
+2018-06-21 11:42:07  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 11:42:07  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 11:42:07  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 11:42:07  [ main:207 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 11:42:08  [ main:1096 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 11:42:08  [ main:1101 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 11:42:08  [ main:1101 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 11:42:08  [ main:1101 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 11:42:08  [ main:1103 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 11:42:08  [ main:1311 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 11:42:09  [ main:1851 ] - [ INFO ]  HHH10001008: Cleaning up connection pool [jdbc:mysql:///hibernatetest]
+2018-06-21 11:42:22  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 11:42:22  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 11:42:22  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 11:42:22  [ main:214 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 11:42:23  [ main:1064 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 11:42:23  [ main:1069 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 11:42:23  [ main:1070 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 11:42:23  [ main:1070 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 11:42:23  [ main:1073 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 11:42:23  [ main:1291 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 11:42:24  [ main:1817 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 11:42:24  [ main:1923 ] - [ INFO ]  HHH10001008: Cleaning up connection pool [jdbc:mysql:///hibernatetest]
+2018-06-21 11:42:36  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 11:42:36  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 11:42:36  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 11:42:37  [ main:232 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 11:42:37  [ main:1168 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 11:42:37  [ main:1174 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 11:42:37  [ main:1174 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 11:42:37  [ main:1175 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 11:42:37  [ main:1177 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 11:42:38  [ main:1394 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 11:42:38  [ main:1962 ] - [ INFO ]  HHH10001008: Cleaning up connection pool [jdbc:mysql:///hibernatetest]
+2018-06-21 11:42:53  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 11:42:53  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 11:42:53  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 11:42:53  [ main:204 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 11:42:54  [ main:1086 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 11:42:54  [ main:1091 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 11:42:54  [ main:1091 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 11:42:54  [ main:1091 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 11:42:54  [ main:1094 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 11:42:54  [ main:1309 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 11:42:55  [ main:1843 ] - [ INFO ]  HHH10001008: Cleaning up connection pool [jdbc:mysql:///hibernatetest]
+2018-06-21 11:43:04  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 11:43:04  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 11:43:04  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 11:43:05  [ main:214 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 11:43:06  [ main:1175 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 11:43:06  [ main:1180 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 11:43:06  [ main:1180 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 11:43:06  [ main:1180 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 11:43:06  [ main:1183 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 11:43:06  [ main:1408 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 11:43:14  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 11:43:14  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 11:43:14  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 11:43:14  [ main:215 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 11:43:15  [ main:1119 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 11:43:15  [ main:1125 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 11:43:15  [ main:1125 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 11:43:15  [ main:1125 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 11:43:15  [ main:1129 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 11:43:15  [ main:1366 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 11:43:16  [ main:1980 ] - [ INFO ]  HHH10001008: Cleaning up connection pool [jdbc:mysql:///hibernatetest]
+2018-06-21 11:48:57  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 11:48:57  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 11:48:57  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 11:48:57  [ main:197 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 11:48:58  [ main:1175 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 11:48:58  [ main:1180 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 11:48:58  [ main:1180 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 11:48:58  [ main:1181 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 11:48:58  [ main:1183 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 11:48:59  [ main:1582 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 11:48:59  [ main:2143 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 11:48:59  [ main:2385 ] - [ INFO ]  HHH10001008: Cleaning up connection pool [jdbc:mysql:///hibernatetest]
+2018-06-21 14:00:35  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 14:00:35  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 14:00:35  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 14:00:35  [ main:214 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 14:00:36  [ main:1140 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 14:00:36  [ main:1146 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 14:00:36  [ main:1146 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 14:00:36  [ main:1146 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 14:00:36  [ main:1148 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 14:00:36  [ main:1374 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 14:00:37  [ main:1872 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 14:00:49  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 14:00:49  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 14:00:49  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 14:00:49  [ main:233 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 14:00:50  [ main:1150 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 14:00:50  [ main:1156 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 14:00:50  [ main:1156 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 14:00:50  [ main:1156 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 14:00:50  [ main:1159 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 14:00:50  [ main:1403 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 14:00:51  [ main:1934 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 14:00:51  [ main:2014 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 14:01:20  [ main:1 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 14:01:20  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 14:01:20  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 14:01:20  [ main:208 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 14:01:21  [ main:1082 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 14:01:21  [ main:1087 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 14:01:21  [ main:1087 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 14:01:21  [ main:1088 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 14:01:21  [ main:1090 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 14:01:21  [ main:1317 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 14:01:22  [ main:1819 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 14:01:22  [ main:1890 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 14:01:22  [ main:1947 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 48 in HQL: [from com.yubotao.hibernate.Customer where name=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2018-06-21 14:01:30  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 14:01:30  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 14:01:30  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 14:01:30  [ main:227 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 14:01:31  [ main:1107 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 14:01:31  [ main:1113 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 14:01:31  [ main:1113 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 14:01:31  [ main:1114 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 14:01:31  [ main:1116 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 14:01:32  [ main:1328 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 14:01:32  [ main:1811 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 14:01:32  [ main:1882 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 14:01:40  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 14:01:40  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 14:01:40  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 14:01:40  [ main:217 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 14:01:41  [ main:1105 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 14:01:41  [ main:1110 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 14:01:41  [ main:1110 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 14:01:41  [ main:1110 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 14:01:41  [ main:1113 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 14:01:41  [ main:1334 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 14:01:41  [ main:1799 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 14:17:50  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 14:17:50  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 14:17:50  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 14:17:50  [ main:279 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 14:17:52  [ main:1626 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 14:17:52  [ main:1632 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 14:17:52  [ main:1632 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 14:17:52  [ main:1632 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 14:17:52  [ main:1635 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 14:17:52  [ main:1945 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 14:17:53  [ main:2505 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 14:22:31  [ main:281346 ] - [ INFO ]  HHH10001008: Cleaning up connection pool [jdbc:mysql:///hibernatetest]
+2018-06-21 15:01:56  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:01:56  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:01:56  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:01:57  [ main:216 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:01:58  [ main:1166 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:01:58  [ main:1174 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:01:58  [ main:1174 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:01:58  [ main:1174 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:01:58  [ main:1177 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:01:58  [ main:1428 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:01:58  [ main:2025 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:01:58  [ main:2038 ] - [ INFO ]  HHH000262: Table not found: t_book
+2018-06-21 15:07:42  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:07:42  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:07:42  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:07:43  [ main:204 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:07:44  [ main:1197 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:07:44  [ main:1202 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:07:44  [ main:1202 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:07:44  [ main:1202 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:07:44  [ main:1207 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:07:44  [ main:1449 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:07:44  [ main:1865 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 15:07:44  [ main:2064 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:07:44  [ main:2108 ] - [ INFO ]  HHH000262: Table not found: t_person
+2018-06-21 15:24:31  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:24:31  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:24:31  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:24:32  [ main:222 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:24:33  [ main:1203 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:24:33  [ main:1209 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:24:33  [ main:1210 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:24:33  [ main:1210 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:24:33  [ main:1212 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:24:33  [ main:1445 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:24:33  [ main:1773 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 15:24:33  [ main:1988 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:25:21  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:25:21  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:25:21  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:25:21  [ main:221 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:25:22  [ main:1123 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:25:22  [ main:1129 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:25:22  [ main:1129 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:25:22  [ main:1129 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:25:22  [ main:1132 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:25:23  [ main:1343 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:25:23  [ main:1703 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 15:25:23  [ main:1935 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:25:23  [ main:1983 ] - [ INFO ]  HHH000262: Table not found: customer
+2018-06-21 15:25:23  [ main:1984 ] - [ INFO ]  HHH000262: Table not found: customer
+2018-06-21 15:25:23  [ main:2019 ] - [ INFO ]  HHH000262: Table not found: order
+2018-06-21 15:25:23  [ main:2020 ] - [ INFO ]  HHH000262: Table not found: order
+2018-06-21 15:26:12  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:26:12  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:26:12  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:26:13  [ main:220 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:26:13  [ main:1136 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:26:13  [ main:1142 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:26:13  [ main:1142 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:26:13  [ main:1142 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:26:13  [ main:1145 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:26:14  [ main:1368 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:26:14  [ main:1728 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 15:26:14  [ main:1955 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:26:14  [ main:2001 ] - [ INFO ]  HHH000262: Table not found: c_order
+2018-06-21 15:26:14  [ main:2002 ] - [ INFO ]  HHH000262: Table not found: c_order
+2018-06-21 15:27:46  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:27:46  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:27:46  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:27:46  [ main:226 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:27:47  [ main:1142 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:27:47  [ main:1146 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:27:47  [ main:1147 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:27:47  [ main:1147 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:27:47  [ main:1149 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:27:47  [ main:1357 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:27:48  [ main:1730 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 15:27:48  [ main:1970 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:38:09  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:38:09  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:38:09  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:38:09  [ main:213 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:38:10  [ main:1152 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:38:10  [ main:1156 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:38:10  [ main:1156 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:38:10  [ main:1156 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:38:10  [ main:1159 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:38:10  [ main:1383 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:38:11  [ main:1801 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 15:38:11  [ main:2041 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:38:46  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:38:46  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:38:46  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:38:46  [ main:218 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:38:47  [ main:1239 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:38:47  [ main:1245 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:38:47  [ main:1246 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:38:47  [ main:1246 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:38:47  [ main:1249 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:38:48  [ main:1494 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:38:48  [ main:1880 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 15:38:48  [ main:2113 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:38:48  [ main:2177 ] - [ INFO ]  HHH000262: Table not found: s_t
+2018-06-21 15:38:48  [ main:2178 ] - [ INFO ]  HHH000262: Table not found: s_t
+2018-06-21 15:38:48  [ main:2212 ] - [ INFO ]  HHH000262: Table not found: t_student
+2018-06-21 15:38:48  [ main:2212 ] - [ INFO ]  HHH000262: Table not found: t_student
+2018-06-21 15:38:48  [ main:2256 ] - [ INFO ]  HHH000262: Table not found: t_teacher
+2018-06-21 15:38:48  [ main:2257 ] - [ INFO ]  HHH000262: Table not found: t_teacher
+2018-06-21 15:39:53  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:39:53  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:39:53  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:39:54  [ main:217 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:39:55  [ main:1208 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:39:55  [ main:1213 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:39:55  [ main:1214 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:39:55  [ main:1214 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:39:55  [ main:1217 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:39:55  [ main:1468 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:39:55  [ main:1883 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 15:39:56  [ main:2118 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:40:46  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:40:46  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:40:46  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:40:46  [ main:205 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:40:47  [ main:1125 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:40:47  [ main:1131 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:40:47  [ main:1131 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:40:47  [ main:1131 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:40:47  [ main:1133 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:40:47  [ main:1358 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:40:47  [ main:1740 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 15:40:48  [ main:1979 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:42:21  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:42:21  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:42:21  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:42:21  [ main:228 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:42:22  [ main:1234 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:42:22  [ main:1240 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:42:22  [ main:1240 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:42:22  [ main:1240 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:42:22  [ main:1243 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:42:22  [ main:1462 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:42:23  [ main:1864 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 15:42:23  [ main:2124 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:43:23  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 15:43:23  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 15:43:23  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 15:43:23  [ main:221 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 15:43:24  [ main:1149 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 15:43:24  [ main:1154 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 15:43:24  [ main:1154 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 15:43:24  [ main:1155 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 15:43:24  [ main:1158 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 15:43:24  [ main:1367 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 15:43:25  [ main:1747 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 15:43:25  [ main:1978 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 15:43:25  [ main:2052 ] - [ INFO ]  HHH000262: Table not found: t_teacher_t_student
+2018-06-21 15:43:25  [ main:2052 ] - [ INFO ]  HHH000262: Table not found: t_teacher_t_student
+2018-06-21 16:10:08  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:10:08  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:10:08  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:10:08  [ main:213 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:10:09  [ main:1254 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:10:09  [ main:1258 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:10:09  [ main:1258 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:10:09  [ main:1259 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:10:09  [ main:1261 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:10:09  [ main:1530 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:10:10  [ main:1908 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:10:10  [ main:2133 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:10:10  [ main:2335 ] - [ ERROR ]  HHH000346: Error during managed flush [object references an unsaved transient instance - save the transient instance before flushing: com.yubotao.hibernate.manyToOne.Customer]
+2018-06-21 16:12:22  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:12:22  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:12:22  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:12:22  [ main:218 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:12:23  [ main:1128 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:12:23  [ main:1133 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:12:23  [ main:1133 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:12:23  [ main:1133 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:12:23  [ main:1136 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:12:23  [ main:1351 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:12:23  [ main:1705 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:12:24  [ main:1955 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:12:24  [ main:2129 ] - [ ERROR ]  HHH000346: Error during managed flush [object references an unsaved transient instance - save the transient instance before flushing: com.yubotao.hibernate.manyToOne.Customer]
+2018-06-21 16:15:31  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:15:31  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:15:31  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:15:31  [ main:224 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:15:32  [ main:1162 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:15:32  [ main:1167 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:15:32  [ main:1167 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:15:32  [ main:1167 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:15:32  [ main:1170 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:15:32  [ main:1387 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:15:33  [ main:1781 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:15:33  [ main:2014 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:15:33  [ main:2200 ] - [ ERROR ]  HHH000346: Error during managed flush [object references an unsaved transient instance - save the transient instance before flushing: com.yubotao.hibernate.manyToOne.Customer]
+2018-06-21 16:18:06  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:18:06  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:18:06  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:18:06  [ main:214 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:18:08  [ main:1398 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:18:08  [ main:1404 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:18:08  [ main:1404 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:18:08  [ main:1404 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:18:08  [ main:1409 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:18:08  [ main:1646 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:18:08  [ main:2036 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:18:09  [ main:2278 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:26:37  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:26:37  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:26:37  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:26:37  [ main:248 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:26:38  [ main:1215 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:26:38  [ main:1221 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:26:38  [ main:1221 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:26:38  [ main:1221 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:26:38  [ main:1224 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:26:38  [ main:1472 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:26:39  [ main:1914 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:26:39  [ main:2171 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:26:39  [ main:2334 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 16:27:17  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:27:17  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:27:17  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:27:17  [ main:221 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:27:18  [ main:1143 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:27:18  [ main:1148 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:27:18  [ main:1149 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:27:18  [ main:1149 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:27:18  [ main:1151 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:27:18  [ main:1361 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:27:19  [ main:1749 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:27:19  [ main:1992 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:27:19  [ main:2137 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 16:28:18  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:28:18  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:28:18  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:28:19  [ main:229 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:28:20  [ main:1383 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:28:20  [ main:1388 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:28:20  [ main:1388 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:28:20  [ main:1389 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:28:20  [ main:1391 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:28:20  [ main:1763 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:28:21  [ main:2141 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:28:21  [ main:2403 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:28:21  [ main:2569 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 16:29:25  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:29:25  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:29:25  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:29:25  [ main:207 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:29:26  [ main:1234 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:29:26  [ main:1239 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:29:26  [ main:1239 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:29:26  [ main:1239 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:29:26  [ main:1242 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:29:27  [ main:1451 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:29:27  [ main:1837 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:29:27  [ main:2080 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:29:27  [ main:2239 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 16:29:27  [ main:2315 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 58 in HQL: [from com.yubotao.hibernate.manyToOne.Order where money > ?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2018-06-21 16:36:34  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:36:34  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:36:34  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:36:34  [ main:219 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:36:36  [ main:1314 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:36:36  [ main:1320 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:36:36  [ main:1321 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:36:36  [ main:1321 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:36:36  [ main:1324 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:36:36  [ main:1565 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:36:36  [ main:2016 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:36:36  [ main:2249 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:36:37  [ main:2389 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 16:36:37  [ main:2445 ] - [ WARN ]  [DEPRECATION] Encountered positional parameter near line 1, column 58 in HQL: [from com.yubotao.hibernate.manyToOne.Order where money > ?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+2018-06-21 16:38:49  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:38:49  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:38:49  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:38:50  [ main:197 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:38:51  [ main:1237 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:38:51  [ main:1244 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:38:51  [ main:1246 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:38:51  [ main:1247 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:38:51  [ main:1250 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:38:51  [ main:1543 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:38:51  [ main:2011 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:38:52  [ main:2248 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:38:52  [ main:2398 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 16:39:35  [ main:1 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:39:35  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:39:35  [ main:4 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:39:35  [ main:209 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:39:36  [ main:1255 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:39:36  [ main:1259 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:39:36  [ main:1260 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:39:36  [ main:1260 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:39:36  [ main:1262 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:39:36  [ main:1512 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:39:37  [ main:1896 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:39:37  [ main:2128 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:39:37  [ main:2269 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 16:40:17  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:40:17  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:40:17  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:40:17  [ main:219 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:40:18  [ main:1206 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:40:18  [ main:1211 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:40:18  [ main:1211 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:40:18  [ main:1212 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:40:18  [ main:1214 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:40:19  [ main:1435 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:40:19  [ main:1823 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:40:19  [ main:2065 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:40:19  [ main:2208 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 16:43:56  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:43:56  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:43:56  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:43:56  [ main:211 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:43:57  [ main:1160 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:43:57  [ main:1165 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:43:57  [ main:1165 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:43:57  [ main:1165 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:43:57  [ main:1168 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:43:58  [ main:1388 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:43:58  [ main:1771 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:43:58  [ main:2007 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:45:21  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:45:21  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:45:21  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:45:21  [ main:206 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:45:22  [ main:1142 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:45:22  [ main:1147 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:45:22  [ main:1147 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:45:22  [ main:1147 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:45:22  [ main:1150 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:45:22  [ main:1361 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:45:23  [ main:1760 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:45:23  [ main:2002 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:45:23  [ main:2137 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 16:45:55  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:45:55  [ main:1 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:45:55  [ main:2 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:45:55  [ main:213 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:45:56  [ main:1160 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:45:56  [ main:1165 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:45:56  [ main:1165 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:45:56  [ main:1165 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:45:56  [ main:1168 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:45:56  [ main:1385 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:45:57  [ main:1779 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:45:57  [ main:2017 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:45:57  [ main:2159 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
+2018-06-21 16:47:10  [ main:0 ] - [ INFO ]  HHH000412: Hibernate Core {5.0.7.Final}
+2018-06-21 16:47:10  [ main:2 ] - [ INFO ]  HHH000206: hibernate.properties not found
+2018-06-21 16:47:10  [ main:3 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+2018-06-21 16:47:10  [ main:216 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-06-21 16:47:11  [ main:1138 ] - [ WARN ]  HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-06-21 16:47:11  [ main:1143 ] - [ INFO ]  HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql:///hibernatetest]
+2018-06-21 16:47:11  [ main:1144 ] - [ INFO ]  HHH10001001: Connection properties: {user=root, password=****}
+2018-06-21 16:47:11  [ main:1145 ] - [ INFO ]  HHH10001003: Autocommit mode: false
+2018-06-21 16:47:11  [ main:1147 ] - [ INFO ]  HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-06-21 16:47:11  [ main:1356 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-06-21 16:47:11  [ main:1733 ] - [ WARN ]  HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2018-06-21 16:47:12  [ main:1967 ] - [ INFO ]  HHH000228: Running hbm2ddl schema update
+2018-06-21 16:47:12  [ main:2114 ] - [ INFO ]  HHH000397: Using ASTQueryTranslatorFactory
