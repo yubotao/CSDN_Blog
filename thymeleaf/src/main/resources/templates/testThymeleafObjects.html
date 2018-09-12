@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>测试thymeleaf对象</title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+#ctx.#vars:<br/>
+<textarea th:text="${#ctx.#vars}" rows="10" cols="150"></textarea><br/>
+<!--这个#vars不好使-->
+喜欢看的书：<span th:text="${#vars.book}"></span><br>
+喜欢的城市：<span th:text="${#httpSession.getAttribute('city')}"></span><br>
+你的国家：<span th:text="${#locale.country}+'-'+${#locale.getDisplayCountry()}"></span><br>
+你的母语：<span th:text="${#locale.language}+'-'+${#locale.getDisplayLanguage()}"></span><br>
+<hr>
+时间：<span th:text="${#dates.format(#dates.createNow())}"></span><br>
+收入：<span th:text="'￥' + ${#numbers.formatDecimal(2345.5645345, 3, 2)}"></span><br>
+</body>
+</html>

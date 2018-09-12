@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Zoo List</title>
+</head>
+<body>
+<a href=".">首页</a>->动物列表<br><br>
+
+<div th:text="${MSG}">这里是信息提示</div>
+<br>
+<div th:errors="${animalForm.oname}"></div>
+<div th:errors="${animalForm.ocount}"></div>
+<div th:errors="${animalForm.memo}"></div>
+<br>
+
+<form id="iform" th:action="@{/zoo/list?save}" th:method="post" th:object="${animalForm}">
+    <table border="1">
+        <tr>
+            <th>动物名称</th>
+            <th>数量</th>
+            <th>备注</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td><input type="text" name="oname" value="" th:value="*{oname}"/></td>
+            <td><input type="text" name="ocount" value="" th:value="*{ocount}"/></td>
+            <td><input type="text" name="memo" value="" th:value="*{memo}"/></td>
+            <td><input type="submit" value="添加"/></td>
+        </tr>
+    </table>
+</form>
+<hr>
+<table border="1">
+    <tr>
+        <th>序号</th>
+        <th>动物名称</th>
+        <th>数量</th>
+        <th>备注</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>大马猴</td>
+        <td>10</td>
+        <td>机灵古怪，俏皮活泼</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>大熊猫</td>
+        <td>80</td>
+        <td>体型笨重，喜欢吃竹子</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>澳洲羊驼</td>
+        <td>13</td>
+        <td>长相奇特，大国人俗称其草泥马</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>峨眉山猴</td>
+        <td>90</td>
+        <td>不怕人，有时候发贱抢游客面包吃</td>
+    </tr>
+</table>
+
+</body>
+</html>
