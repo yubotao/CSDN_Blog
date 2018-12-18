@@ -1,4 +1,4 @@
-package com.yubotao.springsecurityoauth2.config;
+package com.yubotao.springOAuth2.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.AuthenticationException;

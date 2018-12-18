@@ -1,9 +1,8 @@
-package com.yubotao.springsecurityoauth2;
+package com.yubotao.springOAuth2;
 
-import com.yubotao.springsecurityoauth2.jpa.AccountJpa;
-import com.yubotao.springsecurityoauth2.jpa.RoleJpa;
-import com.yubotao.springsecurityoauth2.model.Account;
-import com.yubotao.springsecurityoauth2.model.Role;
+import com.yubotao.springOAuth2.jpa.AccountJpa;
+import com.yubotao.springOAuth2.jpa.RoleJpa;
+import com.yubotao.springOAuth2.model.Role;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

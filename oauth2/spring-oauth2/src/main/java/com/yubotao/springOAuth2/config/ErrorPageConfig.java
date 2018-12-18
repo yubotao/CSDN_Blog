@@ -1,4 +1,4 @@
-package com.yubotao.springsecurityoauth2.config;
+package com.yubotao.springOAuth2.config;
 
 import org.springframework.boot.web.server.ErrorPage;
 import org.springframework.boot.web.server.ErrorPageRegistrar;
