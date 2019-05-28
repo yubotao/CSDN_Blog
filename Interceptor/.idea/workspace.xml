@@ -278,6 +278,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="last_opened_file_path" value="D:/springBoot/demo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -468,12 +469,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519732965765</updated>
-      <workItem from="1519732969368" duration="6494000" />
+      <workItem from="1519732969368" duration="6618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6494000" />
+    <option name="totallyTimeSpent" value="6618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!-- 数据库驱动 -->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <!-- 连接数据库的URL -->
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/test?characterEncoding=utf-8"/>
+        <!-- 连接数据库的用户名 -->
+        <property name="user" value="root"/>
+        <!-- 连接数据的密码 -->
+        <property name="password" value="yubotao9527"/>
+    </bean>
+    <!-- 配置JDBC模板 -->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <!-- 默认必须使用数据源 -->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <bean id="createTables" class="util.CreateTables">
+        <!-- 通过setter方法实现JdbcTemplate对象的注入 -->
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+    <bean id="userDao" class="Daoimpl.UserDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+    <bean id="accountDao" class="Daoimpl.AccountDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+    <bean id="accountService" class="ServiceImpl.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+    <!-- 事务管理器,依赖于数据源 -->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!-- 编写通知：对事务进行增强，需要对切入点和具体执行事务细节 -->
+    <tx:advice id="txAdvice" transaction-manager="txManager">
+        <tx:attributes>
+            <!-- <tx:method> 给切入点添加事务详情
+                 name:方法名称, *表示任意方法, do* 表示以do开头的方法
+                 propagation:设置传播行为
+                 isolation:隔离级别
+                 read-only:是否只读 -->
+            <tx:method name="*" propagation="REQUIRED" isolation="DEFAULT" read-only="false"/>
+            <!--ISOLATION_DEFAULT 默认级别（对大多数数据库来说就是ISOLATION_READ_COMMITTED）-->
+            <!--ISOLATION_READ_UNCOMMITTED 最低的隔离级别。事实上我们不应该隔离级别，因为在事务完成前，其他事务可以看到该事务所修改的数据。
+            而在其他事务提交前，该事务也可以看到其他事务所做的修改。-->
+            <!--ISOLATION_READ_COMMITTED 大多数数据库的默认级别。在事务完成前，其他事务无法看到该事务所修改的数据。
+            遗憾的是，在该事务提交后，你就可以查看其他事务插入活更新的数据。这意味着在事务的不同点上，如果其他事务修改数据，你会看到不同的数据。-->
+            <!--ISOLATION_REPEATABLE_READ 该隔离级别确保如果在事务中查询了某个数据集，你至少还能再次查询到相同的数据集，即使其他事务修改了所查询的数据。
+            然而如果其他事务插入了新数据，你就可以查询到该新插入的数据。-->
+            <!--ISOLATION_SERIALIZABLE 代价最大、可靠性最高的隔离级别，所有的事务都是俺顺序一个接一个的执行。-->
+        </tx:attributes>
+    </tx:advice>
+    <!-- aop编写,让Spring自动对目标进行代理，需要使用AspectJ的表达式 -->
+    <aop:config>
+        <!-- 切入点 -->
+        <aop:pointcut expression="execution(* ServiceImpl.AccountServiceImpl.*(..))" id="txPointCut"/>
+        <!-- 切面:将切入点和通知整合 -->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointCut"/>
+    </aop:config>
+
+    <!-- 配置日志打印类 -->
+    <bean id="logHandler" class="util.LogHandler"/>
+    <aop:config>
+        <!-- order属性表示横切关注点的顺序，当有多个时，序号依次增加 -->
+        <aop:aspect id="log" ref="logHandler" order="1">
+            <!--  切入点为AccountServiceImpl类下的transfer方法 -->
+            <aop:pointcut id="logTime" expression="execution(* ServiceImpl.AccountServiceImpl.transfer(..))"/>
+            <aop:before method="LogBefore" pointcut-ref="logTime"/>
+            <aop:after method="LogAfter" pointcut-ref="logTime"/>
+            <aop:around method="around" pointcut-ref="logTime"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

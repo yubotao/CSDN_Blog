@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="demo-provider"/>
+    <dubbo:registry address="multicast://224.5.6.7:1234"/>
+    <dubbo:protocol name="dubbo" port="20880" accepts="1000"/>
+    <!--<dubbo:protocol name="rmi" port="1009"/>-->
+    <dubbo:service interface="service.DemoService" ref="demoService" version="1.0.0" protocol="dubbo" cache="lru" timeout="10000"/>
+    <!--<dubbo:service interface="service.TestRmiService" ref="rmiService" version="1.0.0" protocol="rmi"/>-->
+    <bean id="demoService" class="service.impl.DemoServiceImpl"/>
+    <!--<bean id="rmiService" class="service.impl.TestRmiServiceImpl"/>-->
+
+</beans>
