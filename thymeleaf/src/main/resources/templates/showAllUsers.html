@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>显示全部用户</title>
+
+</head>
+<body>
+<div class="panel-body">
+    <ul class="list-group">
+        <li class="list-group-item" th:each="user:${users}">
+            编号：<span th:text="${user.id}"></span><br/>
+            用户名：<span th:text="${user.username}"></span><br/>
+            密码：<span th:text="${user.password}"></span><br/>
+            电话：<span th:text="${user.telephone}"></span><br/>
+            注册时间：<span th:text="${#dates.format(user.registerTime, 'yyyy-MM-dd hh:mm:ss')}"></span><br/>
+            权限：<span th:text="${user.popedom==0?'管理员':'普通用户'}"></span><br/>
+        </li>
+    </ul>
+</div>
+<hr>
+<div class="col-md-7">
+    <div class="panel panel-primary">
+        <div class="panel-heading text-center">
+            <span class="panel-title">全部用户信息</span>
+        </div>
+        <div class="panel-body">
+            <table class="table-bordered" style="width: 100%">
+                <tr style="height: 40px; background-color: #f7ecb5">
+                    <th class="text-center">编号</th>
+                    <th class="text-center">用户名</th>
+                    <th class="text-center">密码</th>
+                    <th class="text-center">电话</th>
+                    <th class="text-center">注册时间</th>
+                    <th class="text-center">权限</th>
+                </tr>
+                <tr th:each="user:${users}" class="text-center" style="height: 40px">
+                    <td><span th:text="${user.id}"></span></td>
+                    <td><span th:text="${user.username}"></span></td>
+                    <td><span th:text="${user.password}"></span></td>
+                    <td><span th:text="${user.telephone}"></span></td>
+                    <td><span th:text="${#dates.format(user.registerTime, 'yyyy-MM-dd hh:mm:ss')}"></span></td>
+                    <td><span th:text="${user.popedom==0?'管理员':'普通用户'}"></span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

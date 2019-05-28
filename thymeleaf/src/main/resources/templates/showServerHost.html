@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>显示服务器主机信息</title>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<div class="panel-heading text-center">
+    <span class="panel-title">服务器主机信息</span>
+</div>
+<div class="panel-body">
+    <ul class="list-group">
+        <li class="list-group-item" th:each="inetAddress:${inetAddresses}">
+            <div th:if="${inetAddressStat.count==1}">
+                <p style="font-weight: bold">inetAddressA</p>
+            </div>
+            <div th:if="${inetAddressStat.count==2}">
+                <p style="font-weight: bold">inetAddressB</p>
+            </div>
+            <div th:if="${inetAddressStat.count==3}">
+                <p style="font-weight: bold">inetAddressC</p>
+            </div>
+            ip：<span th:text="${inetAddress.ip}"></span><br/>
+            length：<span th:text="${inetAddress.length}"></span><br/>
+            port：<span th:text="${inetAddress.port}"></span><br/>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter01_Strategy_Pattern/Chapter01_Strategy_Pattern.iml" filepath="$PROJECT_DIR$/Chapter01_Strategy_Pattern/Chapter01_Strategy_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02_Observer_Patterns/Chapter02_Observer_Patterns.iml" filepath="$PROJECT_DIR$/Chapter02_Observer_Patterns/Chapter02_Observer_Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter03_Decorator_Pattern/Chapter03_Decorator_Pattern.iml" filepath="$PROJECT_DIR$/Chapter03_Decorator_Pattern/Chapter03_Decorator_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter04_Factory_Pattern/Chapter04_Factory_Pattern.iml" filepath="$PROJECT_DIR$/Chapter04_Factory_Pattern/Chapter04_Factory_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter05_Singleton_Pattern/Chapter05_Singleton_Pattern.iml" filepath="$PROJECT_DIR$/Chapter05_Singleton_Pattern/Chapter05_Singleton_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter06_Command_Pattern/Chapter06_Command_Pattern.iml" filepath="$PROJECT_DIR$/Chapter06_Command_Pattern/Chapter06_Command_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter07_Adapter_Pattern/Chapter07_Adapter_Pattern.iml" filepath="$PROJECT_DIR$/Chapter07_Adapter_Pattern/Chapter07_Adapter_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter07_Facade_Pattern/Chapter07_Facade_Pattern.iml" filepath="$PROJECT_DIR$/Chapter07_Facade_Pattern/Chapter07_Facade_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter08_Template_Method_Pattern/Chapter08_Template_Method_Pattern.iml" filepath="$PROJECT_DIR$/Chapter08_Template_Method_Pattern/Chapter08_Template_Method_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter09_Iterator_Pattern_And_Composite_Pattern/Chapter09_Iterator_Pattern_And_Composite_Pattern.iml" filepath="$PROJECT_DIR$/Chapter09_Iterator_Pattern_And_Composite_Pattern/Chapter09_Iterator_Pattern_And_Composite_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter10_State_Pattern/Chapter10_State_Pattern.iml" filepath="$PROJECT_DIR$/Chapter10_State_Pattern/Chapter10_State_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter11_Proxy_Pattern/Chapter11_Proxy_Pattern.iml" filepath="$PROJECT_DIR$/Chapter11_Proxy_Pattern/Chapter11_Proxy_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter12_Compound_Pattern/Chapter12_Compound_Pattern.iml" filepath="$PROJECT_DIR$/Chapter12_Compound_Pattern/Chapter12_Compound_Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Design_Patterns.iml" filepath="$PROJECT_DIR$/Design_Patterns.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>显示用户信息</title>
+</head>
+<body>
+<h1>两种形式：</h1>
+<h3>第一种：直接通过${}来取值</h3>
+
+                    编号：<span th:text="${user.id}"></span><br/>
+                    用户名：<span th:text="${user.username}"></span><br/>
+                    密码：<span th:text="${user.password}"></span><br/>
+                    电话：<span th:text="${user.telephone}"></span><br/>
+                    注册时间：<span th:text="${#dates.format(user.registerTime, 'yyyy-MM-dd hh:mm:ss')}"></span><br/>
+                    权限：<span th:text="${user.popedom==0?'管理员':'普通用户'}"></span><br/>
+<hr>
+<h3>第二种：先通过${}取到对象，然后再通过*{}来取值</h3>
+                    <div th:object="${user}">
+                        编号：<span th:text="*{id}"></span><br/>
+                        用户名：<span th:text="*{username}"></span><br/>
+                        密码：<span th:text="*{password}"></span><br/>
+                        电话：<span th:text="*{telephone}"></span><br/>
+                        注册时间：<span th:text="*{#dates.format(registerTime, 'yyyy-MM-dd hh:mm:ss')}"></span><br/>
+                        权限：<span th:text="*{popedom==0?'管理员':'普通用户'}"></span><br/>
+                    </div>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+serverHost:
+  inetAddressA:
+    ip: 127.0.0.1
+    length: 160
+    port: 2000
+  inetAddressB:
+    ip: 192.168.0.15
+    length: 180
+    port: 2000
+  inetAddressC:
+      ip: 192.168.0.16
+      length: 288
+      port: 2000
+
+udp:
+  server:
+    host: 192.168.60.34
+    port: 8001

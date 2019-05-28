@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>显示学生信息</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+</head>
+<h2>#{}直接可以取对应的属性值（如在application.properties中定义的相关属性）</h2>
+编号：<span th:text="#{student.id}">2</span><br>
+姓名：<span th:text="#{student.name}">mnnnb</span><br>
+性别：<span th:text="#{student.gender}">男</span><br>
+年龄：<span th:text="#{student.age}">20</span><br>
+电话：<span th:text="#{student.telephone}">777777777</span><br>
+
+</html>
