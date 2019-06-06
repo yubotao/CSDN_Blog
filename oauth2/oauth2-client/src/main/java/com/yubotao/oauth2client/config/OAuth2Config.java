@@ -1,9 +1,11 @@
 package com.yubotao.oauth2client.config;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
+import org.springframework.web.context.request.RequestContextListener;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -30,6 +32,12 @@ public class OAuth2Config {
                     .anyRequest().authenticated()
                     .and()
                     .httpBasic();
+        }
+
+        // 解决所有报错都报401的问题，根本原因是scopedTarget.oauth2ClientContext这个bean的生成问题
+        @Bean
+        public RequestContextListener requestContextListener() {
+            return new RequestContextListener();
         }
     }
 }

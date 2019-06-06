@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strategy>
+    <autoserials>
+        <autoserial strategy="stepOneSerial" autoSerialModel="com.yubotao.autoSerial.model.AutoSerial" note="自动获取序列号" prefix="yymm" length="10" cacheSize="20" step="1" />
+        <autoserial strategy="stepTwoSerial" autoSerialModel="com.yubotao.autoSerial.model.AutoSerial" note="自动获取序列号" prefix="" length="10" cacheSize="10" step="2" />
+    </autoserials>
+</strategy>

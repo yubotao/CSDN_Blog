@@ -11,6 +11,12 @@
     <name>rabbitmq_summary</name>
     <description>Demo project for Spring Boot</description>
 
+    <modules>
+        <module>rabbitmq</module>
+        <module>rabbitmq_with_sb</module>
+        <module>rabbitmq_with_sb_1</module>
+    </modules>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
