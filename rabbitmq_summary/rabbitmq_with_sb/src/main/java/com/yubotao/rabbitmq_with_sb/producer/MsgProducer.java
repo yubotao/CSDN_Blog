@@ -28,7 +28,7 @@ public class MsgProducer implements RabbitTemplate.ConfirmCallback {
     public MsgProducer(RabbitTemplate rabbitTemplate){
         this.rabbitTemplate = rabbitTemplate;
         // rabbitTemplate如果为单例的话，那回调就是最后设置的内容
-        rabbitTemplate.setConfirmCallback(this);
+//        rabbitTemplate.setConfirmCallback(this);
     }
 
     public void sendMsg(String content){

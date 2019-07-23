@@ -1,6 +1,8 @@
 package com.yubotao.rabbitmq_with_sb.config;
 
 import com.rabbitmq.client.Channel;
+import com.yubotao.rabbitmq_with_sb.receiver.ack.ConfirmCallBackListener;
+import com.yubotao.rabbitmq_with_sb.receiver.ack.ReturnCallBackListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.core.*;
@@ -58,6 +60,7 @@ public class RabbitConfig {
         connectionFactory.setPassword(password);
         connectionFactory.setVirtualHost("/");
         connectionFactory.setPublisherConfirms(true);
+        connectionFactory.setPublisherReturns(true);
         return connectionFactory;
     }
 
@@ -65,6 +68,10 @@ public class RabbitConfig {
     @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
     public RabbitTemplate rabbitTemplate(){
         RabbitTemplate template = new RabbitTemplate(connectionFactory());
+        template.setConfirmCallback(new ConfirmCallBackListener());
+        template.setReturnCallback(new ReturnCallBackListener());
+        // 没有它，ReturnCallBack不生效
+        template.setMandatory(true);
         return template;
     }
 
