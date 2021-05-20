@@ -54,6 +54,7 @@ public class CASController {
 			realUser.setWrongtimes(0);
 	
 			realUser.setLocked(0);
+			userService.updateUser(realUser);
 		}
 			
 		if(realUser.getLocked() == 0){
